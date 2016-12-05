@@ -1,0 +1,14 @@
+{
+  "name": "rmay-redmine_docker",
+  "version": "0.1.0",
+  "author": "rmay",
+  "summary": "Docker Redmine sameersbn github",
+  "license": "Apache 2.0",
+  "source": "https://github.com/sameersbn/docker-redmine",
+  "project_page": "https://github.com/sameersbn/docker-redmine",
+  "issues_url": "https://github.com/sameersbn/docker-redmine/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ]
+}
+

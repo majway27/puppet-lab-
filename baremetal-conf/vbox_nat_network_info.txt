@@ -1,0 +1,19 @@
+NetworkName:    NatNetwork
+IP:             10.0.2.1
+Network:        10.0.2.0/24
+IPv6 Enabled:   No
+IPv6 Prefix:    
+DHCP Enabled:   Yes
+Enabled:        Yes
+Port-forwarding (ipv4)
+        http-web-ext-backend:tcp:[192.168.120.70]:8016:[10.0.2.16]:80
+        http-web-ext-util:tcp:[192.168.120.70]:8017:[10.0.2.17]:80
+        http-web-ext-web:tcp:[192.168.120.70]:8015:[10.0.2.15]:80
+        https-web-ext:tcp:[192.168.120.70]:8445:[10.0.2.15]:443
+        ssh-backend:tcp:[192.168.120.70]:2216:[10.0.2.16]:22
+        ssh-util:tcp:[192.168.120.70]:2217:[10.0.2.17]:22
+        ssh-web:tcp:[192.168.120.70]:2215:[10.0.2.15]:22
+        temp_redmine:tcp:[192.168.120.70]:8025:[10.0.2.15]:11080
+loopback mappings (ipv4)
+        127.0.0.1=2
+
